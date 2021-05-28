@@ -21,7 +21,7 @@ A három eszköz:
 
 Sajnos iOS-t futtató eszközön nem tudtam kipróbálni az alkalmazást. Az emulátoros tesztelésekből sem végeztem sokat, mert az Android Studio megette reggelire a betelt C meghajtójú laptopomat, ha még az emulátort is ráeresztettem :(
 
-# 1080 x 2340 pixel
+### 1080 x 2340 pixel
 
 
 <div align="center">
@@ -89,5 +89,63 @@ Helyes működés esetén portrait módban az alábbi kép fogad.
  <br>
  <br>
 
+### 1080 x 1920 pixel
+ 
+ <br>
+ <br>
+<div align="center">
+<img src="https://github.com/CeceCeceCece/randomuser-flutter/blob/main/images/16_9_phone_list.png" width="360" height="640"> <img src="https://github.com/CeceCeceCece/randomuser-flutter/blob/main/images/16_9_phone_detail_portrait.png" width="360" height="640">
+<br>
+<br>
+Helyes működés esetén portrait módban az alábbi kép fogad.
+<br>
+<br>
+<br>
+<br>
 
-## Ismert issue-k
+<img src="https://github.com/CeceCeceCece/randomuser-flutter/blob/main/images/16_9_phone_masterdetail.png" width="640" height="360">
+ 
+ <br>
+ <br>
+ ..és a master-detail nézet.
+ <br>
+ <br>
+ </div>
+ 
+ 
+ ### 1600 x 2560 pixel
+ 
+ 
+
+ <br>
+ <br>
+
+<div align="center">
+<img src="https://github.com/CeceCeceCece/randomuser-flutter/blob/main/images/tablet_portrait.png" width="400" height="640">
+<br>
+<br>
+Tablet esetén mind a két orientációban master-detail nézet fogad minket.
+<br>
+<br>
+<br>
+<br>
+
+<img src="https://github.com/CeceCeceCece/randomuser-flutter/blob/main/images/tablet_landscape.png" width="640" height="400">
+ 
+ <br>
+ <br>
+ </div>
+ Tabletre annyira nem szép a UI. Ennek az az oka, hogy a töréspontot, amitől master-detail módban jelenik meg a UI viszonylag alacsonyra raktam (hogy telefonon is ki tudjam próbálni kellő alapossággal), így pedig a részletes nézet nagyon kicsi kellett legyen. Nem gondolom, hogy telefonra esetén egy ilyen jellegű alkalmazásnál van értelme annak, hogy master-detail módban jelenjen meg - még a Gmail alkalmazása még a 2340 pixel szélességen sem vált át ilyenre (persze logikai pixelekben ez kevesebb). Idő híján nem javítottam át a nézeteket, de a töréspontot nagyobbra venném (pl. 900-ra, és akkor mobilon nem is változik meg), és/vagy készítenék egy másfajta detail nézetet a tabletes master-detailhez.
+ 
+## Egyéb funkciók
+
+Mivel a hálózati műveletek sokáig tarthatnak - főleg a képek letöltése - kis CircularProgressIndicatorok jelennek meg a lista nézetben a felhasználók képe helyett, amíg azok be nem töltődnek, vagy akár csak amíg maga a lista feltöltődik adatokkal.
+
+A részletes nézeten is ehhez hasonlóan megjelenik egy ilyen a profilkép körül, a nemhez illeszkedő színben. Az alábbi képen épp az áttűnés látható, de még ott van az indicator is:
+<div align="center">
+<img src="https://github.com/CeceCeceCece/randomuser-flutter/blob/main/images/circular.jpg" width="360" height="780"> 
+ </div>
+
+
+
+
