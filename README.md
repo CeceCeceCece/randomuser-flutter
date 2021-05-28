@@ -1,6 +1,6 @@
 # Cross-platform mobilalkalmazás fejlesztése Flutterrel (szakmai gyakorlat tesztfeladat)
 
-Ez a repository tartalmazza a szakmai gyakorlat tesztfeladatának megoldását. Mivel soha nem foglalkzotam még korábban Flutterrel, könnyen lehet, hogy lesznek olyan részletek, amiket nem a legoptimálisabban sikerült megvalósítani.
+Ez a repository tartalmazza a szakmai gyakorlat tesztfeladatának megoldását. Mivel soha nem foglalkoztam még korábban Flutterrel, könnyen lehet, hogy lesznek olyan részletek, amiket nem a legoptimálisabban sikerült megvalósítani.
  
 ## Megvalósított feladatok
 
