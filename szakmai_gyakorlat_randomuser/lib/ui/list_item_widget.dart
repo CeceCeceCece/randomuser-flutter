@@ -43,25 +43,3 @@ class ListItem extends StatelessWidget {
   }
 }
 
-/*Row(children: [
-AspectRatio(
-aspectRatio: 1 / 1,
-child: CachedNetworkImage(
-imageUrl: item.imageUrls.thumbnail,
-placeholder: (context, url) => new Center(
-child: SizedBox(
-width: 30,
-height: 30,
-child: CircularProgressIndicator())),
-errorWidget: (context, url, error) => new Icon(Icons.photo),
-),
-),
-SizedBox(
-width: 14,
-height: 70,
-),
-Align(
-alignment: Alignment.centerLeft,
-child: Text(
-item.name.toString(),
-style: const TextStyle(fontSize: 20),*/
