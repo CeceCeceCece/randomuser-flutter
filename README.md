@@ -4,7 +4,7 @@ Ez a repository tartalmazza a szakmai gyakorlat tesztfeladatának megoldását. 
  
 ## Megvalósított feladatok
 
-* A https://randomuser.me/ API felhasználásával userek listázása
+* A [randomuser](https://randomuser.me/) API felhasználásával userek listázása
 * Lista oldal képekkel és nevekkel
   * Lista oldalon pull to refresh funkcionalitás
   * "Végtelen" lista, ha a végére érnénk a letöltött usereknek, újakat tölt be az alkalmazás az API *Pagination* részére támaszkodva
@@ -38,7 +38,7 @@ Helyes működés esetén portrait módban az alábbi kép fogad.
 
  <br>
  <br>
- Ha elforgatjuk a telefont, átváltunk master-detail nézetre. Ha nem volt még kiválasztva listaelem, a *detail* rész üres.
+ Ha elforgatjuk a telefont, átváltunk master-detail nézetre. Ha nem volt még kiválasztva listaelem, a detail rész üres.
  <br>
  <br>
  <br>
@@ -85,7 +85,7 @@ Helyes működés esetén portrait módban az alábbi kép fogad.
 
  <br>
  <br>
- Ha elforgatjuk az eszközt, miután portrait módban rámegyünk a részletes nézetre, sajnos ez fogad minket. Próbáltam megoldani, hogy vagy fix portrait mód lehessen csak ebben a nézetben vagy lépjen vissza a lista nézetre, majd úgy rajzolja ki az alkalmazás újra a nézetet, de nem sikerült.
+ Ha elforgatjuk az eszközt miután portrait módban rámegyünk a részletes nézetre, sajnos ez fogad minket. Próbáltam megoldani, hogy vagy fix portrait mód lehessen csak ebben a nézetben vagy lépjen vissza a lista nézetre, majd úgy rajzolja ki az alkalmazás újra a nézetet, de nem sikerült.
  <br>
  <br>
 
