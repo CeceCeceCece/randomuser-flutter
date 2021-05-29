@@ -146,9 +146,9 @@ A részletes nézeten is ehhez hasonlóan megjelenik egy ilyen a profilkép kör
 <img src="https://github.com/CeceCeceCece/randomuser-flutter/blob/main/images/circular.jpg" width="360" height="780"> 
  </div>
 
-## Ismert hibák
+## Egyéb ismert hibák
 
 * Az arab nevű felhasználók neve ugyanakkora betűmérettel több helyet foglal el, mint a többi felhasználóé és így picit eltolja némelyik részét a nézetnek - alig észrevehető
 * Bizonyos embereknek olyan hosszú az email címe vagy a városnév, hogy nem fér ki egyes nézeteken (így járnak, akik *San Sebastián de Los Reyes* vagy ehhez hasonló helyeken laknak :( )
-
+* Ha master-detail nézetben ki van jelölve egy felhasználó, majd portrait módba forgatjuk az eszközt, a részletes nézet helyett a listanézetre váltunk.
 
